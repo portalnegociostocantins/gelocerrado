@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#050d1f">
+    <!-- O bloco abaixo é atualizado automaticamente pelo painel admin ao publicar (título, descrição, redes sociais) -->
+    <!--SEO:START-->
+    <title>Gelo Cerrado | Fábrica e distribuidora de gelo em Palmas - TO</title>
+    <meta name="description" content="Gelo Cerrado, o frio do Cerrado: fábrica e distribuidora de gelo em cubos translúcidos, alta pureza e água duplamente filtrada. Embalagens de 5kg e 10kg.">
+    <!--SEO:END-->
+    <link rel="icon" href="imagens/logo-gelo-cerrado.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link id="gfonts" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Tudo abaixo é montado pelo script.js a partir do arquivo dados.js (editável no admin.html) -->
+    <header class="header" id="site-header"></header>
+    <main id="app"></main>
+    <footer class="footer" id="contato"></footer>
+    <div id="float-wa"></div>
+    <div id="draft-banner" class="draft-banner" hidden></div>
+
+    <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Foto ampliada">
+        <button type="button" class="lb-close" data-lb-close aria-label="Fechar"><i class="fas fa-xmark"></i></button>
+        <button type="button" class="lb-nav lb-prev" data-lb-prev aria-label="Foto anterior"><i class="fas fa-chevron-left"></i></button>
+        <figure>
+            <img id="lb-img" alt="">
+            <figcaption id="lb-cap"></figcaption>
+        </figure>
+        <button type="button" class="lb-nav lb-next" data-lb-next aria-label="Próxima foto"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <noscript>
+        <p style="padding:90px 20px;text-align:center;font-family:sans-serif;">
+            Gelo Cerrado — ative o JavaScript para ver o site.
+        </p>
+    </noscript>
+
+    <script src="dados.js?v=3"></script>
+    <script src="core.js?v=3"></script>
+    <script src="script.js?v=3"></script>
+</body>
+</html>
